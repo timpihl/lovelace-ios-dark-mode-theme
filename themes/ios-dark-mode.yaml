@@ -1,36 +1,33 @@
----
+#---
 #
 # iOS Dark Mode
 #
 ios-dark-mode:
-  # Global
-  background-image: "center / cover no-repeat fixed url('/local/images/homekit-bg-4.jpeg')"
-  primary-color: "rgba(255, 159, 9, 1)"
-  light-primary-color: "#B6B6C1"
-  primary-background-color: "#2e2e2e" 
-  secondary-background-color: "rgba(25, 25, 25, 0.7)"
-  divider-color: "#98989d" 
 
-  # Text
+  accent-color: "rgba(255,100,155)"
+  background-image: "center / cover no-repeat fixed url('/local/images/homekit-bg-4.jpeg')"
+  primary-color: "rgba(255,100,155)"
+  light-primary-color: "#B6B6C1"
+  primary-background-color: "#000"
+  secondary-background-color: "rgba(25, 25, 25, 0.7)"
+  divider-color: "#000000"
+
   primary-text-color: "#FFFFFF"
   secondary-text-color: "#d3d3d3"
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#232323"
   text-dark-color: "#FFFFFF"
   
-  # Sidebar Menu
   sidebar-icon-color: "#B6B6C1"
   sidebar-text-color: "#F1F1F1"
-  sidebar-selected-background-color: "#2e2e2e" 
+  sidebar-selected-background-color: "#2e2e2e"
   sidebar-selected-icon-color: "#FFFFFF"
   sidebar-selected-text-color: "#FFFFFF"
   
-  # States and Badges
   state-icon-color: "#FFFFFF"
   state-icon-active-color: "rgba(255, 214, 10, 1)"
   state-icon-unavailable-color: "#232323"
   
-  # Sliders
   paper-slider-knob-color: "#FFFFFF"
   paper-slider-knob-start-color: "#FFFFFF"
   paper-slider-pin-color: "#FFFFFF"
@@ -40,44 +37,51 @@ ios-dark-mode:
   paper-slider-font-color: "#000"
   ha-slider-background: none !important
   
-  # Labels
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
   label-badge-red: "rgba(255, 159, 9, 0.7)"
   
-  # Cards
   card-background-color: "rgba(25, 25, 25, 0.7)"
-  paper-listbox-background-color: "#2e2e2e"
+  paper-listbox-background-color: "#000000"
   ha-card-border-radius: 20px
   ha-card-background: "rgba(10, 10, 10, 0.4)"
   paper-card-background-color: "rgba(10, 10, 10, 0.4)"
   
-  # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
   paper-toggle-button-unchecked-button-color: "#484848"
   paper-toggle-button-unchecked-bar-color: "#232323"
   
-  # Table row
   table-row-background-color: "#2e2e2e"
   table-row-alternative-background-color: "rgba(25, 25, 25, 0.7)"
   
-  # Switches
   switch-checked-color: "#30d257"
   switch-checked-track-color: "#30d257"
   switch-checked-button-color: "#FFFFFF"
   
-  # Other
   paper-dialog-background-color: "rgba(55, 55, 55, 0.5)"
   more-info-header-background: "rgba(25, 25, 25, 0.5)"
   
-  # Custom
   mini-media-player-accent-color: "#FFFFFF"
-  mini-media-player-artwork-opacity: 0.7
-  mcg-title-letter-spacing: .15em
-  paper-font-body1_-_font-weight: 500
-  paper-font-display1_-_font-weight: 500
-  paper-font-display2_-_font-weight: 500
-  paper-font-display3_-_font-weight: 500
+  mini-media-player-artwork-opacity: "0.7"
+  mcg-title-letter-spacing: ".15em"
+  paper-font-body1_-_font-weight: "300"
+  paper-font-display1_-_font-weight: "300"
+  paper-font-display2_-_font-weight: "300"
+  paper-font-display3_-_font-weight: "300"
   mini-media-player-base-color: "#FFFFFF"
   mini-media-player-icon-color: "#FFFFFF"
+
+# CCH Styling
+
+  cch-background: "rgba(0,0,0,0.5)" #center / cover no-repeat url("/local/images/bg1.jpg")
+  cch-all-buttons-color: white
+  cch-button-color-menu: white
+  cch-button-color-notifications: white
+  cch-button-color-voice: white
+  cch-button-color-options: white
+  cch-all-tabs-color: white
+  cch-tab-indicator-color: white
+  cch-active-tab-color: "#00FFFF"
+  cch-notify-indicator-color: "#00FFFF"
+  cch-notify-text-color: white
