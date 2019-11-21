@@ -5,79 +5,79 @@
 ios-dark-mode:
   # Global
   background-image: "center / cover no-repeat fixed url('/local/images/homekit-bg-4.jpeg')"
-  primary-color: "rgba(255, 159, 9, 1)"  # from Apple systemOrange dark mode
-  light-primary-color: "#B6B6C1"  # light gray
-  primary-background-color: "#2e2e2e"  # dark gray
-  secondary-background-color: rgba(25, 25, 25, 0.7)
-  divider-color: "#98989d"  # from Apple systemGray dark mode
+  primary-color: "rgba(255, 159, 9, 1)"
+  light-primary-color: "#B6B6C1"
+  primary-background-color: "#2e2e2e" 
+  secondary-background-color: "rgba(25, 25, 25, 0.7)"
+  divider-color: "#98989d" 
 
   # Text
   primary-text-color: "#FFFFFF"
   secondary-text-color: "#d3d3d3"
   text-primary-color: "#FFFFFF"
-  disabled-text-color: "#232323"  # XXX: https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/2
+  disabled-text-color: "#232323"
   text-dark-color: "#FFFFFF"
   
   # Sidebar Menu
-  sidebar-icon-color: var(--light-primary-color)
+  sidebar-icon-color: "#B6B6C1"
   sidebar-text-color: "#F1F1F1"
-  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-background-color: "#2e2e2e" 
   sidebar-selected-icon-color: "#FFFFFF"
-  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+  sidebar-selected-text-color: "#FFFFFF"
   
   # States and Badges
   state-icon-color: "#FFFFFF"
-  state-icon-active-color: rgba(255, 214, 10, 1)
-  state-icon-unavailable-color: var(--disabled-text-color)
+  state-icon-active-color: "rgba(255, 214, 10, 1)"
+  state-icon-unavailable-color: "#232323"
   
   # Sliders
   paper-slider-knob-color: "#FFFFFF"
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: "#0984ff"  # from Apple systemBlue dark mode
-  paper-slider-secondary-color: var(--paper-slider-knob-color)
-  paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  paper-slider-knob-start-color: "#FFFFFF"
+  paper-slider-pin-color: "#FFFFFF"
+  paper-slider-active-color: "#0984ff"
+  paper-slider-secondary-color: "#FFFFFF"
+  paper-slider-container-color: "rgba(255, 255, 255, 0.5)"
   paper-slider-font-color: "#000"
   ha-slider-background: none !important
   
   # Labels
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
-  label-badge-red: "rgba(255, 159, 9, 0.7)"  # from Apple systemOrange dark mode
+  label-badge-red: "rgba(255, 159, 9, 0.7)"
   
   # Cards
-  card-background-color: var(--secondary-background-color)  # Unused entities table background
-  paper-listbox-background-color: var(--primary-background-color)
+  card-background-color: "rgba(25, 25, 25, 0.7)"
+  paper-listbox-background-color: "#2e2e2e"
   ha-card-border-radius: 20px
-  ha-card-background: rgba(10, 10, 10, 0.4)
-  paper-card-background-color: var(--ha-card-background)
+  ha-card-background: "rgba(10, 10, 10, 0.4)"
+  paper-card-background-color: "rgba(10, 10, 10, 0.4)"
   
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
-  paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
-  paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+  paper-toggle-button-unchecked-button-color: "#484848"
+  paper-toggle-button-unchecked-bar-color: "#232323"
   
   # Table row
-  table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--secondary-background-color)
+  table-row-background-color: "#2e2e2e"
+  table-row-alternative-background-color: "rgba(25, 25, 25, 0.7)"
   
   # Switches
-  switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
-  switch-checked-track-color: "#30d257"  # from Apple systemGreen dark mode
+  switch-checked-color: "#30d257"
+  switch-checked-track-color: "#30d257"
   switch-checked-button-color: "#FFFFFF"
   
   # Other
-  paper-dialog-background-color: rgba(55, 55, 55, 0.5)
-  more-info-header-background: rgba(25, 25, 25, 0.5)
+  paper-dialog-background-color: "rgba(55, 55, 55, 0.5)"
+  more-info-header-background: "rgba(25, 25, 25, 0.5)"
   
   # Custom
-  mini-media-player-accent-color: var(--primary-text-color)
+  mini-media-player-accent-color: "#FFFFFF"
   mini-media-player-artwork-opacity: 0.7
   mcg-title-letter-spacing: .15em
   paper-font-body1_-_font-weight: 500
   paper-font-display1_-_font-weight: 500
   paper-font-display2_-_font-weight: 500
   paper-font-display3_-_font-weight: 500
-  mini-media-player-base-color: "#FFFFFFFFF"
-  mini-media-player-icon-color: "#FFFFFFFFF"
+  mini-media-player-base-color: "#FFFFFF"
+  mini-media-player-icon-color: "#FFFFFF"
