@@ -9,7 +9,7 @@ ios-dark-mode:
   primary-color: "rgba(255,100,155)"
   light-primary-color: "#B6B6C1"
   primary-background-color: "#000"
-  secondary-background-color: "rgba(25, 25, 25, 0.7)"
+  secondary-background-color: "rgba(5, 5, 5, 0.8)"
   divider-color: "#000000"
 
   primary-text-color: "#FFFFFF"
@@ -59,7 +59,7 @@ ios-dark-mode:
   switch-checked-track-color: "#30d257"
   switch-checked-button-color: "#FFFFFF"
   
-  paper-dialog-background-color: "rgba(55, 55, 55, 0.5)"
+  paper-dialog-background-color: "rgba(15, 15, 15, 0.7)"
   more-info-header-background: "rgba(25, 25, 25, 0.5)"
   
   mini-media-player-accent-color: "#FFFFFF"
