@@ -6,7 +6,7 @@ pink-dark-ios:
   primary-color: var(--pink)
   light-primary-color: "#B6B6C1"
   primary-background-color: "#1e1e1e"
-  secondary-background-color: rgba(15, 15, 15, 0.8)
+  secondary-background-color: rgba(15, 15, 15, 0.9)
   divider-color: "#98989d"
   accent-color: --var(--primary-color)
 
