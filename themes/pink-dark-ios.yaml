@@ -17,7 +17,7 @@ pink-dark-ios:
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#232323"
   text-dark-color: "#FFFFFF"
-  
+
   sidebar-icon-color: "#B6B6C1"
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
@@ -38,7 +38,7 @@ pink-dark-ios:
   paper-slider-container-color: rgba(255, 255, 255, 0.5)
   paper-slider-font-color: "#000"
   ha-slider-background: none !important
-  
+
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
   label-badge-red: rgba(255, 159, 9, 0.7)  # from Apple systemOrange dark mode
@@ -49,7 +49,7 @@ pink-dark-ios:
   ha-card-border-radius: 20px
   ha-card-background: "rgba(10, 10, 10, 0.4)"
   paper-card-background-color: "rgba(10, 10, 10, 0.4)"
-  
+
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
   paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
@@ -75,11 +75,11 @@ pink-dark-ios:
   mini-media-player-icon-color: white
   # mini-media-player-artwork-opacity: 0.7  # causing some bug
 
-# Custom Toker
+  # Custom Toker
   background-image: "center / cover no-repeat fixed url('/local/images/homekit-bg-4.jpeg')"
 
-# CCH Styling
-  cch-background: "rgba(0,0,0,0.5)" #center / cover no-repeat url("/local/images/bg1.jpg")
+  # CCH Styling
+  cch-background: "rgba(0,0,0,0.5)" # center / cover no-repeat url("/local/images/bg1.jpg")
   cch-all-buttons-color: white
   cch-button-color-menu: white
   cch-button-color-notifications: white
