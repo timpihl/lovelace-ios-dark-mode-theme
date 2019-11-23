@@ -4,11 +4,11 @@
 #
 pink-dark-ios:
   primary-color: var(--pink)
-  light-primary-color: "#B6B6C1"
-  primary-background-color: "#1e1e1e"
-  secondary-background-color: rgba(10, 10, 10, 0.9)
-  divider-color: "#98989d"
-  accent-color: --var(--primary-color)
+  light-primary-color: var(--pink)
+  primary-background-color: var(--grey)
+  secondary-background-color: var(--dark-grey)
+  divider-color: var(--grey)
+  accent-color: var(--primary-color)
 
   primary-text-color: var(--white)
   secondary-text-color: "#d3d3d3"
@@ -18,7 +18,7 @@ pink-dark-ios:
 
   sidebar-icon-color: "#B6B6C1"
   sidebar-text-color: "#F1F1F1"
-  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-background-color: var(--grey)
   sidebar-selected-icon-color: var(--white)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
 
@@ -38,11 +38,21 @@ pink-dark-ios:
   label-badge-background-color: "#23232E"
   label-badge-text-color: "#F1F1F1"
   label-badge-red: rgba(255, 159, 9, 0.7)
+  lumo-body-text-color: var(--white)
+  lumo-tertiary-text-color: var(--white)
+  lumo-header-text-color: var(--pink)
+  lumo-primary-text-color: var--(pink)
+  lumo-base-color: var(--dark-grey)
+  lumo-shade: var(--dark-grey)
+  lumo-contrast: var(--dark-grey)
+  lumo-contrast-10pct: var(--grey)
+
 
   card-background-color: var(--secondary-background-color)
-  paper-listbox-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--grey)
   ha-card-border-radius: 20px
   ha-card-background: "rgba(10, 10, 10, 0.4)"
+  ha-user-badge: var(--pink)
   paper-card-background-color: "rgba(10, 10, 10, 0.4)"
 
   paper-toggle-button-checked-button-color: "#484848"
@@ -50,16 +60,17 @@ pink-dark-ios:
   paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
   paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
 
-  table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--secondary-background-color)
+  table-row-background-color: var(--grey)
+  table-row-alternative-background-color: var(--mid-grey)
 
   switch-checked-color: "#30d257"
   switch-checked-track-color: "#30d257"
   switch-checked-button-color: var(--white)
 
-  paper-dialog-background-color: rgba(55, 55, 55, 0.5)
+  paper-dialog-background-color: rgba(25, 25, 25, 0.95)
   paper-item-icon-color: var(--white)
-  more-info-header-background: rgba(25, 25, 25, 0.5)
+  paper-item-icon-background: var(--pink)
+  more-info-header-background: rgba(10, 10, 10, 1)
 
   mcg-title-letter-spacing: .15em
   mini-media-player-base-color: var(--white)
@@ -71,8 +82,9 @@ pink-dark-ios:
   white: "#FFFFFF"
   black: "#000000"
   pink: "#FF558F"
-  grey: "#3e3e3e"
-  dark-grey: "#121212"
+  grey: "#1e1e1e"
+  mid-grey: "#191919"
+  dark-grey: "#050505"
 
   cch-background: "rgba(0,0,0,0.5)"
   cch-all-buttons-color: var(--white)
