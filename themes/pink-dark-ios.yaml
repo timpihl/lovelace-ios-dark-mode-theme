@@ -1,7 +1,7 @@
 ---
-# 
-# Pink Dark iOS
-# 
+  #
+  # Pink Dark iOS
+  #
 pink-dark-ios:
   # Global
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
@@ -79,7 +79,7 @@ pink-dark-ios:
   background-image: "center / cover no-repeat fixed url('/local/images/homekit-bg-4.jpeg')"
 
   # CCH Styling
-  cch-background: "rgba(0,0,0,0.5)" # center / cover no-repeat url("/local/images/bg1.jpg")
+  cch-background: "rgba(0,0,0,0.5)"  # center / cover no-repeat url("/local/images/bg1.jpg")
   cch-all-buttons-color: white
   cch-button-color-menu: white
   cch-button-color-notifications: white
