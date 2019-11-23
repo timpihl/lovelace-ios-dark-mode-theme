@@ -1,7 +1,7 @@
 ---
-  #
+#
 #  Pink Dark iOS
-  #
+#
 pink-dark-ios:
   # Global
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
