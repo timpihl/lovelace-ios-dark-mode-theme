@@ -43,9 +43,11 @@ pink-dark-ios:
   lumo-header-text-color: var(--pink)
   lumo-primary-text-color: var--(pink)
   lumo-base-color: var(--dark-grey)
+  lumo-tint-5pct: var(--mid-grey)
   lumo-shade: var(--dark-grey)
   lumo-contrast: var(--dark-grey)
   lumo-contrast-10pct: var(--grey)
+  lumo-box-shadow-m: 0 5px 15px -4px var(--pink)
 
   card-background-color: var(--secondary-background-color)
   paper-listbox-background-color: var(--grey)
