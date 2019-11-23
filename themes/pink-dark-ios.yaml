@@ -47,7 +47,6 @@ pink-dark-ios:
   lumo-contrast: var(--dark-grey)
   lumo-contrast-10pct: var(--grey)
 
-
   card-background-color: var(--secondary-background-color)
   paper-listbox-background-color: var(--grey)
   ha-card-border-radius: 20px
