@@ -1,7 +1,7 @@
-#---
-#
+---
+# 
 # Pink Dark iOS
-#
+# 
 pink-dark-ios:
   # Global
   primary-color: rgba(255, 159, 9, 1)  # from Apple systemOrange dark mode
@@ -60,7 +60,7 @@ pink-dark-ios:
   table-row-alternative-background-color: var(--secondary-background-color)
 
   # Switches
-  switch-checked-color: "#30d257"  # XXX: remove when https://github.com/home-assistant/home-assistant-polymer/pull/4203 is in HA
+  switch-checked-color: "#30d257"
   switch-checked-track-color: "#30d257"  # from Apple systemGreen dark mode
 
   switch-checked-button-color: "#FFF"
