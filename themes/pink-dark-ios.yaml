@@ -3,36 +3,36 @@
 #  Pink Dark iOS
 #
 pink-dark-ios:
-  primary-color: "#FF558F"
+  primary-color: var(--pink)
   light-primary-color: "#B6B6C1"
-  primary-background-color: "#2e2e2e"
-  secondary-background-color: rgba(25, 25, 25, 0.7)
+  primary-background-color: "#1e1e1e"
+  secondary-background-color: rgba(15, 15, 15, 0.8)
   divider-color: "#98989d"
   accent-color: --var(--primary-color)
 
-  primary-text-color: "#FFF"
+  primary-text-color: var(--white)
   secondary-text-color: "#d3d3d3"
-  text-primary-color: "#FFFFFF"
+  text-primary-color: var(--white)
   disabled-text-color: "#232323"
-  text-dark-color: "#FFFFFF"
+  text-dark-color: var(--white)
 
   sidebar-icon-color: "#B6B6C1"
   sidebar-text-color: "#F1F1F1"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#FFF"
+  sidebar-selected-icon-color: var(--white)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
 
-  state-icon-color: "#FFF"
-  state-icon-active-color: "#FFF"
+  state-icon-color: var(--white)
+  state-icon-active-color: var(--white)
   state-icon-unavailable-color: var(--disabled-text-color)
 
-  paper-slider-knob-color: "#FFF"
+  paper-slider-knob-color: var(--white)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: "#0984ff"
   paper-slider-secondary-color: var(--paper-slider-knob-color)
   paper-slider-container-color: rgba(255, 255, 255, 0.5)
-  paper-slider-font-color: "#000"
+  paper-slider-font-color: var(--black)
   ha-slider-background: none !important
 
   label-badge-background-color: "#23232E"
@@ -55,28 +55,33 @@ pink-dark-ios:
 
   switch-checked-color: "#30d257"
   switch-checked-track-color: "#30d257"
-  switch-checked-button-color: "#FFF"
+  switch-checked-button-color: var(--white)
 
   paper-dialog-background-color: rgba(55, 55, 55, 0.5)
-  paper-item-icon-color: white
+  paper-item-icon-color: var(--white)
   more-info-header-background: rgba(25, 25, 25, 0.5)
 
   mcg-title-letter-spacing: .15em
-  mini-media-player-base-color: white
-  mini-media-player-icon-color: white
-  mini-media-player-artwork-opacity: 0.7
+  mini-media-player-base-color: var(--white)
+  mini-media-player-icon-color: var(--white)
+  mini-media-player-artwork-opacity: "0.7"
 
   # Custom Toker
   background-image: "center / cover no-repeat fixed url('/local/images/homekit-bg-4.jpeg')"
+  white: "#FFFFFF"
+  black: "#000000"
+  pink: "#FF558F"
+  grey: "#3e3e3e"
+  dark-grey: "#121212"
 
   cch-background: "rgba(0,0,0,0.5)"
-  cch-all-buttons-color: white
-  cch-button-color-menu: white
-  cch-button-color-notifications: white
-  cch-button-color-voice: white
-  cch-button-color-options: white
-  cch-all-tabs-color: white
-  cch-tab-indicator-color: white
+  cch-all-buttons-color: var(--white)
+  cch-button-color-menu: var(--white)
+  cch-button-color-notifications: var(--white)
+  cch-button-color-voice: var(--white)
+  cch-button-color-options: var(--white)
+  cch-all-tabs-color: var(--white)
+  cch-tab-indicator-color: var(--white)
   cch-active-tab-color: "#00FFFF"
   cch-notify-indicator-color: "#00FFFF"
-  cch-notify-text-color: white
+  cch-notify-text-color: var(--white)
